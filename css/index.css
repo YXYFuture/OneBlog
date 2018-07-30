@@ -1,0 +1,52 @@
+nav{
+    background: #ccc;
+    height: 50px;
+}
+
+#banner{
+    background: #777;
+    height: 700px;
+}
+
+nav ul {
+    margin: 0;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    height: inherit;
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    line-height: 50px;
+    text-decoration: none;
+}
+nav ul li.logo{
+    float: left;
+}
+
+#banner .inner{ /*让div和div中的内容居中*/
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 160px;
+}
+
+#banner .inner h1{
+    margin: 0;
+}
+
+button{
+    border: none;
+    background: #333;
+    color: #eee;
+    padding: 14px 20px;
+}
+
+#banner .inner .more{
+    margin-top: 320px;
+}
