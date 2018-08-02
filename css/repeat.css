@@ -1,0 +1,194 @@
+.clearfix:after{/*清除浮动*/
+    content:'';
+    display: block;
+    clear: both;
+}
+h1{
+    margin: 0;
+    letter-spacing: 1px; 
+}
+h2{
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+h3{
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: 1px; 
+}
+.hr{
+    width: 60%;
+    height: 1px;
+    background: #ccc;
+    margin:20px auto;
+}
+
+/*从nav-》.banner,再到里面的细节*/
+nav{
+    background: #ccc;
+    height: 50px;
+}
+.banner{
+    background: #777;
+    height: 700px;
+}
+.logo{
+    float: left;
+    height: inherit;
+    line-height: 50px;
+    margin-left: 20px;
+}
+.logo a{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    list-style: none;/*去掉li前面的小圆点*/
+    margin: 0;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    height: inherit;
+    line-height: 50px;/*文字上下居中*/
+}
+
+nav ul li a ,.logo a{
+    text-decoration: none;/*去掉a下划线*/
+    color: #fff;
+    line-height: 50px;
+    height: 50px;
+    display: inline-block;/*减少点击的挫折感*/
+}
+.inner{
+    width:60%;/*两层包装，内层指定宽度和margin*/
+    margin: 0 auto;
+    text-align: center;
+    padding: 200px;/*可以用定位*/
+}
+.sub-heading{
+    margin: 20px auto;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 25px;
+}
+.inner .sub-heading{
+    width: 200px;
+}
+button{
+    border: none;
+    background: cornflowerblue;
+    color: #fff;
+    padding: 10px 20px;
+}
+.banner button{
+    padding: 20px 30px;
+    background: #333;
+}
+.more{
+    margin-top: 200px;
+}
+.content{
+}
+.green-section{
+    text-align: center;
+    padding: 140px;
+    color: #fff;
+    background: #5d6a80;
+}
+.wrapper{
+    width:1080px;
+    margin: 0 auto;
+}
+.icon{
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    background: #ccc;
+    transform: rotate(45deg);/*旋转*/
+    margin:20px ;
+}
+.green-section .hr{
+    width: 40%;
+}
+.gray-section{
+    background: #252f34;
+}
+.preview > div {
+    float: left;
+    font-size: 0;
+}
+.gray-section .img-section{
+    width: 45%;
+    /* float: left; */
+}
+
+.gray-section .text-section{
+    width: 55%;
+    /* float: right; */
+    padding-top: 200px;
+    color: #fff;
+}
+.img-section img{
+    width: 100%;
+}
+.text-section h2{
+    margin-left: 100px;
+}
+.text-section .sub-heading{
+    margin: 20px 0 10px;;
+    font-size: 22px;
+    padding-left: 100px;
+}
+.text-section p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-left: 100px;
+    line-height: 30px;
+    max-width: 80%;
+    /* max-width:120px;  */
+}
+.gray-section .preview:nth-child(odd){
+    background: rgba(255,255,255,0.05);
+}
+.purple-section{
+    background: #917791;
+    text-align: center;
+    color: #fff;
+    padding: 120px;
+}
+.heading-wrapper {
+    /* padding-top: 120px; */
+}
+.heading-wrapper .hr{
+    background: #736173;
+}
+.card-group .card{
+    width: 50%;
+    min-height: 300px;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card:first-child{
+    background: rgba(0,0,0,0.04);
+}
+.card:nth-child(2){
+    background: rgba(0,0,0,0.08);
+}
+.card:nth-child(3){
+    background: rgba(0,0,0,0.12);
+}
+.card:nth-child(4){
+    background: rgba(0,0,0,0.16);
+}
+.card:nth-child(5){
+    background: rgba(0,0,0,0.20);
+}
+.card:nth-child(6){
+    background: rgba(0,0,0,0.24);
+}
