@@ -1,16 +1,22 @@
+header{
+    background: rgba(0,0,0,0.05);
+    color: #fff;
+}
 nav{
-    background: #ccc;
+    background: transparent;/*透明*/
     height: 50px;
 }
 
 #banner{
-    background: #777;
+    background:transparent;
     height: 700px;
+}
+ul{
+    margin: 0;
+    list-style: none;
 }
 
 nav ul {
-    margin: 0;
-    list-style: none;
     float: right;
 }
 nav ul li{
@@ -197,3 +203,53 @@ h3{
 .card:nth-child(4){
     background: rgba(0,0,0,0.16);
 }
+footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+.share-group{
+    padding-bottom: 30px;
+}
+.share-group li{
+    display: inline-block;
+    padding: 10px;
+}
+.copy{
+    letter-spacing: 1px;
+}
+.main-wrapper{/*背景图片添加*/
+    background: #444 url(../images/banner.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sidebar{
+    background: #444;
+    width: 300px;
+    color: #fff;
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom: 0;
+}
+.sidebar ul {
+    padding: 50px 0;
+}
+
+.sidebar ul li a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 50px;
+}
+.sidebar ul li a:hover{
+    background: rgba(255,255,255,0.05);
+}
+/*font awesome 图标 
+http://fontawesome.dashgame.com/
+*/
